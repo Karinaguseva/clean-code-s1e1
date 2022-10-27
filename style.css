@@ -22,7 +22,8 @@
 
 @media (max-width: 768px) {
 
-  .info { text-align: center;
+  .info {
+    text-align: center;
   }
 
 }
@@ -41,16 +42,19 @@
 .task-wrapper {
   display: flex;
 }
+
 .list-wrapper {
   margin: 0;
   padding: 0px;
 }
 
-.item, .title {
+.item, 
+.title {
   list-style: none;
 }
 
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 
@@ -112,7 +116,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
